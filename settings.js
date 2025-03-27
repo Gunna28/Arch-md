@@ -12,17 +12,17 @@ const { version } = require("./package.json")
 require('dotenv').config(); 
 
 //======= Change settings =======\\
-global.owner = process.env.OWNER_NUMBER || "2347036214381"
+global.owner = process.env.OWNER_NUMBER || "2349134822702"
 global.botname = process.env.BOT_NAME || "αrch md"
-global.ownername = process.env.OWNER_NAME || "Ednut"; //set bot owner name here 
+global.ownername = process.env.OWNER_NAME || "𝕺𝖓𝖊 𝖆𝖇𝖔𝖛𝖊 𝖆𝖑𝖑"; //set bot owner name here 
 global.prefix = process.env.PREFIX || "."; // your desired prefix symbol only
 global.timezone = process.env.TIME_ZONE || "Africa/Lagos";
-global.author = process.env.AUTHOR  || "Ednut";
-global.packname = process.env.PACK_NAME  || "Arch Md ²⁵";
+global.author = process.env.AUTHOR  || "𝕺𝖓𝖊 𝖆𝖇𝖔𝖛𝖊 𝖆𝖑𝖑";
+global.packname = process.env.PACK_NAME  || "𝕺𝖓𝖊 𝖆𝖇𝖔𝖛𝖊 𝖆𝖑𝖑";
 global.startup = process.env.STARTUP_MSG === 'true';
 global.typeMenu = process.env.MENU_TYPE  || "v2";
-global.onlypc = process.env.ONLYPC_MSG  || "Sorry buddy the bot won't work directly in group chat to reduce spam use in private chat";
-global.onlygroup = process.env.ONLYGC_MSG  || "Sorry buddy the bot won't work directly in private chat to reduce spam use in group";
+global.onlypc = process.env.ONLYPC_MSG  || "𝖄𝖔𝖚 𝖔𝖛𝖊𝖗𝖘𝖙𝖊𝖕 𝖞𝖔𝖚𝖗 𝖇𝖔𝖚𝖓𝖉𝖘 𝖒𝖔𝖗𝖙𝖆𝖑👿";
+global.onlygroup = process.env.ONLYGC_MSG  || "𝖄𝖔𝖚 𝖔𝖛𝖊𝖗𝖘𝖙𝖊𝖕 𝖞𝖔𝖚𝖗 𝖇𝖔𝖚𝖓𝖉𝖘 𝖒𝖔𝖗𝖙𝖆𝖑👿";
 
 
 global.simbol = "♘"
